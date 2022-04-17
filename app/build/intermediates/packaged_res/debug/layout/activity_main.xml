@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/nohp"
+        android:layout_width="363dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="77dp"
+        android:ems="10"
+        android:hint="Masukkan Nomor Handphone"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/buttonhp"
+        android:layout_width="359dp"
+        android:layout_height="36dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="123dp"
+        android:onClick="openDialPhone"
+        android:text="Open Dial Phone"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="66dp"  />
+
+    <EditText
+        android:id="@+id/url"
+        android:layout_width="359dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="213dp"
+        android:ems="10"
+        android:hint="Masukkan Url"
+        android:inputType="textUri"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="176dp" />
+
+    <Button
+        android:id="@+id/buttonurl"
+        android:layout_width="358dp"
+        android:layout_height="36dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="271dp"
+        android:onClick="onClick"
+        android:text="Open Browser"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="217dp" />
+
+    <EditText
+        android:id="@+id/lokasi"
+        android:layout_width="361dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="350dp"
+        android:ems="10"
+        android:hint="Buka Lokasi"
+        android:inputType="textUri"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="303dp" />
+
+    <Button
+        android:id="@+id/buttonlokasi"
+        android:layout_width="360dp"
+        android:layout_height="37dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="407dp"
+        android:text="open location"
+        android:onClick="onClick"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="347dp" />
+
+    <EditText
+        android:id="@+id/teks"
+        android:layout_width="359dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="469dp"
+        android:ems="10"
+        android:hint="Masukkan Teks"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="423dp" />
+
+    <Button
+        android:id="@+id/buttonteks"
+        android:layout_width="366dp"
+        android:layout_height="36dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="525dp"
+        android:text="share text"
+        android:onClick="onClick"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="465dp" />
+
+</RelativeLayout>
